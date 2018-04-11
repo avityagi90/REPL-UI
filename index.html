@@ -11,6 +11,46 @@
       <link rel="stylesheet" href="scribbler-global.css">
       <link rel="stylesheet" href="scribbler-landing.css">
       <link rel="author" href="humans.txt">
+      
+      
+      <!------------- style for contact section start --------------->
+      <style>
+      input[type=text],[type=email], select, textarea, email {
+	    width: 100%;
+	    padding: 10px;
+	    
+	    border: 1px solid #ccc;
+	    border-radius: 5px;
+	    box-sizing: border-box;
+	    margin-top: 6px;
+	    margin-bottom: 16px;
+	    resize: vertical;
+	}
+	
+	input[type=submit] {
+	    background-color: #4CAF50;
+	    color: white;
+	    padding: 12px 20px;
+	    border: none;
+	    border-radius: 5px;
+	    cursor: pointer;
+	}
+	
+	input[type=submit]:hover {
+	    background-color: #45a049;
+	}
+	
+	/* .container {
+	    border-radius: 5px;
+	    background-color: #f2f2f2;
+	    padding: 20px;
+	} */
+	</style>
+	
+	
+      <!------------------ style for contact section end ------------------>
+      
+      
   </head>
   <body>
     <nav>
@@ -98,10 +138,10 @@
         <a href="doc.html" class="button--primary">Documentation</a>
       </div>
       
-      <div id="form" class="keybinding">
+      <!-- <div id="form" class="keybinding">
       
       <div>
-      <!-- <h3>Please provide feedbac.</h3> -->
+      <h3>Please provide feedbac.</h3>
   	  <h3>Feedback :</h3>
 	  </div>
 	  
@@ -115,7 +155,63 @@
 	  <input type="submit" value="Send Message">
 	  
 	  </form>
-	  </div>
+	  </div> -->
+	  
+	  
+	  			
+	  			<!-- Feedback/Contact Section start -->
+	  			
+	  			<section id="three">
+						<h2>Get In Touch</h2>
+						<p>Accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque lorem ipsum dolor.</p>
+							 <div>
+								<form method="post" action="#">
+									<table>
+									
+									<tr>
+										<td><input type="text" name="name" id="name" placeholder="Name" required="required"/></td>
+										<td><input type="email" name="email" id="email" placeholder="Email" required="required"/></td>	
+									</tr>
+									
+									<tr>
+										<td colspan="2"><textarea name="message" id="message" placeholder="Message" rows="4" required="required"></textarea></td>
+									</tr>
+									
+									<tr>
+										<td colspan="2" align="center"><input type="submit" value="Send Message"/></td>
+									</tr>
+									
+									</table>
+									
+								</form>
+							</div>
+					</section>
+	  
+	  			<!-- Feedback/Contact Section end -->
+	  
+					<!-- 	  	<div class="container">
+					  <form action="/action_page.php">
+					    <label for="fname">First Name</label>
+					    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+					
+					    <label for="lname">Last Name</label>
+					    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+					
+					    <label for="country">Country</label>
+					    <select id="country" name="country">
+					      <option value="australia">Australia</option>
+					      <option value="canada">Canada</option>
+					      <option value="usa">USA</option>
+					    </select>
+					
+					    <label for="subject">Subject</label>
+					    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+					
+					    <input type="submit" value="Submit">
+					  </form>
+					</div>
+					 -->	  
+	  
 	  </div>
       
    </div>
