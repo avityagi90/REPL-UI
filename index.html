@@ -64,16 +64,19 @@
     <div class="hero">
       <h1 class="hero__title">REPL</h1>
       <p class="hero__description">Check your codes instantaneously in REPL</p>
+      <div id="optionMenu">
+        <select class="list" style="margin:7px;font-size:15px;width:200px;">
+                <option value="c">C</option>
+                <option value="cpp">C++</option>
+                <option value="go">Go</option>
+                <option value="java">Java</option>
+                <option value="python2.7">Python2.7</option>
+        </select>
     </div>
-    
-    <div class="hero__terminal" id="content">
-      <pre>
-        <!-- Place your demo code here -->
-        <object type="text/html" data="http://54.202.50.124:8080" width="800px" height="600px" style="overflow:auto;border:5px ridge blue">
-    </object>
-      </pre>
+    <br>
     </div>
-    
+
+    <div class="hero__terminal"></div>
     
     <div class="wrapper">
       <div class="installation">
